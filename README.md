@@ -20,12 +20,17 @@ Feature:
 
 2. Go to Safari Preferences -> General -> Home Page -> point to local repo -> index.html
 
+## Deploy to GitHub Pages
+This repository includes a GitHub Actions workflow that publishes the static site to GitHub Pages whenever changes are pushed to the `main` or `master` branch.
+
+In your GitHub repository, go to Settings -> Pages -> Build and deployment, then set Source to GitHub Actions.
+
 ## Search bar
 When opening a new tab, the browser search bar will be focused (not the in-page search).
 
 To use the page search bar, press `TAB` or reload the page once.
 
-By default, the search bar is using Google search but if prefix with certain command, it will redirect to other search engine.
+By default, the search bar is using Bing search but if prefix with certain command, it will redirect to other search engine.
 
 To use a command, type the command name with space and the search query.
 
