@@ -20,12 +20,22 @@ Feature:
 
 2. Go to Safari Preferences -> General -> Home Page -> point to local repo -> index.html
 
+## Deploy to GitHub Pages
+This repository is ready to be published as a static website on GitHub Pages.
+
+1. Push this repository to GitHub.
+2. In the GitHub repository, go to Settings -> Pages -> Build and deployment.
+3. Set Source to GitHub Actions.
+4. Push to the repository default branch, or manually run the `Deploy static site to GitHub Pages` workflow from the Actions tab.
+
+After the workflow finishes, the page will be available at `https://<your-github-username>.github.io/<repository-name>/`.
+
 ## Search bar
 When opening a new tab, the browser search bar will be focused (not the in-page search).
 
 To use the page search bar, press `TAB` or reload the page once.
 
-By default, the search bar is using Google search but if prefix with certain command, it will redirect to other search engine.
+By default, the search bar is using Bing search but if prefix with certain command, it will redirect to other search engine.
 
 To use a command, type the command name with space and the search query.
 
